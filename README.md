@@ -55,7 +55,7 @@ Os testes demonstrados foram feitos em simulação, **não em hardware físico**
 | V0.3 | Movimento + estresse |
 | V0.4–V0.5 | Botão de carinho + alívio |
 | V0.6 | Proximidade (testes parciais no Wokwi) |
-| V0.7 | Diálogos contextuais predefinidos (6 testes aprovados no Wokwi) |\n| V0.8 | Boca dinâmica e comentários ocasionais (5 testes aprovados no Wokwi) |\n| V0.9 | Olhar malicioso, comentários variados e memória curta (aguardando teste) |
+| V0.7 | Diálogos contextuais predefinidos (6 testes aprovados no Wokwi) |\n| V0.8 | Boca dinâmica e comentários ocasionais (5 testes aprovados no Wokwi) |\n| V0.9 | Olhar malicioso, comentários variados e memória curta (3 testes aprovados no Wokwi) |\n| V1.0 | Primeiros traços persistentes: afeto e desconfiança (aguardando teste) |
 
 ## Próximos passos
 - Melhorar filtragem do sensor de distância e evitar oscilações perto dos limites.
@@ -64,6 +64,6 @@ Os testes demonstrados foram feitos em simulação, **não em hardware físico**
 - Adicionar áudio local, caixa portátil e bateria com circuito apropriado.
 - Futuramente, criar **Sasa Tech Connect** para cadastro voluntário, apelidos, preferências e memória social, respeitando privacidade e consentimento.
 
-Veja [documentacao/visao-geral.md](documentacao/visao-geral.md), [testes/roteiro-v0.6.md](testes/roteiro-v0.6.md) [instruções para V0.7](documentacao/versao-v0.7.md) [instruções para V0.8](documentacao/versao-v0.8.md) e [instruções para V0.9](documentacao/versao-v0.9.md).
+Veja [documentacao/visao-geral.md](documentacao/visao-geral.md), [testes/roteiro-v0.6.md](testes/roteiro-v0.6.md) [instruções para V0.7](documentacao/versao-v0.7.md) [instruções para V0.8](documentacao/versao-v0.8.md) [instruções para V0.9](documentacao/versao-v0.9.md) e [instruções para V1.0](documentacao/versao-v1.0.md).
 
 **Projeto em desenvolvimento.**
