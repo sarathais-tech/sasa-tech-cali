@@ -23,3 +23,5 @@ Não foram criadas novas mensagens seriais. O resultado principal é **visual**.
 ## Resultado parcial — 18/10/2026
 
 **Aprovado (relatado):** a criadora confirmou que, a 25 cm, a expressão emburrada permanece depois de a legenda desaparecer. Ainda pendem testes das demais expressões e regressões da H2.
+
+**Observacao de limite (relatada):** ao ajustar a distancia para 35 cm, a criadora viu Cali ficar CURIOSO. Como a saida da zona pessoal usa `distancia > 35`, sera conferido o valor efetivo exibido no Monitor Serial, com testes em 33, 35 e 36 cm, antes de alterar o firmware. A estabilidade no limite ainda nao esta aprovada.
