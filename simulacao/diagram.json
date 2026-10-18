@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "author": "Sara Thais",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": 22.34,
+      "left": 211.43,
+      "attrs": {
+        "i2cAddress": "0x3c"
+      }
+    },
+    {
+      "type": "wokwi-mpu6050",
+      "id": "imu1",
+      "top": 32.62,
+      "left": -160.88,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -41.8,
+      "left": -201.6,
+      "attrs": {
+        "color": "green",
+        "xray": "1"
+      }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": 183.9,
+      "left": -176.9,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "esp:TX",
+      "$serialMonitor:RX",
+      "",
+      []
+    ],
+    [
+      "esp:RX",
+      "$serialMonitor:TX",
+      "",
+      []
+    ],
+    [
+      "oled1:VCC",
+      "esp:3V3",
+      "red",
+      [
+        "v-67.2",
+        "h-168.04"
+      ]
+    ],
+    [
+      "oled1:GND",
+      "esp:GND.2",
+      "black",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "oled1:SDA",
+      "esp:21",
+      "green",
+      [
+        "v-28.8",
+        "h96.07",
+        "v124.8",
+        "h-172.8",
+        "v-57.6"
+      ]
+    ],
+    [
+      "oled1:SCL",
+      "esp:22",
+      "green",
+      [
+        "v-28.8",
+        "h-66.9",
+        "v38.4"
+      ]
+    ],
+    [
+      "imu1:VCC",
+      "esp:3V3",
+      "red",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "imu1:GND",
+      "esp:GND.1",
+      "black",
+      [
+        "v-19.2",
+        "h-95.92",
+        "v144"
+      ]
+    ],
+    [
+      "imu1:SDA",
+      "esp:21",
+      "green",
+      [
+        "v-86.4",
+        "h460.88",
+        "v211.2",
+        "h-230.4",
+        "v-86.4",
+        "h-14.44"
+      ]
+    ],
+    [
+      "imu1:SCL",
+      "esp:22",
+      "green",
+      [
+        "v-76.8",
+        "h422.48",
+        "v19.2",
+        "h-216.04"
+      ]
+    ],
+    [
+      "btn1:1.l",
+      "esp:18",
+      "green",
+      [
+        "v-67.2",
+        "h576",
+        "v201.6"
+      ]
+    ],
+    [
+      "btn1:2.l",
+      "esp:GND.1",
+      "green",
+      [
+        "h-57.6",
+        "v163.4"
+      ]
+    ],
+    [
+      "ultrasonic1:VCC",
+      "esp:5V",
+      "red",
+      [
+        "v28.8",
+        "h110.21"
+      ]
+    ],
+    [
+      "ultrasonic1:GND",
+      "esp:GND.3",
+      "black",
+      [
+        "v19.2",
+        "h190.8",
+        "v-211.2"
+      ]
+    ],
+    [
+      "ultrasonic1:TRIG",
+      "esp:5",
+      "green",
+      [
+        "v48",
+        "h249.2",
+        "v-211.2"
+      ]
+    ],
+    [
+      "ultrasonic1:ECHO",
+      "esp:19",
+      "green",
+      [
+        "v67.2",
+        "h258.4",
+        "v-249.6"
+      ]
+    ]
+  ],
+  "dependencies": {}
+}
