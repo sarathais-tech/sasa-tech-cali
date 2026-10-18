@@ -9,7 +9,7 @@ Data: 18/10/2026. Resultados informados pela criadora.
 | Persistência após Stop e Start no Wokwi | Valores voltaram a afeto=50 e desconfianca=30 | Não preservou dados entre sessões simuladas |
 | Persistência após `ESP.restart()` na mesma execução | A criadora confirmou que os valores anteriores permaneceram | Aprovado (relatado) |
 | Alteração dos traços com movimento | A criadora confirmou queda de 1 ponto no afeto e aumento de 4 pontos na desconfiança após episódio de agitação | Aprovado (relatado) |
-| Regressão das expressões da V0.9 | Aguardando teste | Pendente |
+| Regressão das expressões e sensores da V0.9 | Criadora confirmou curiosidade, desconforto, carinho, tontura, irritação e comentários espontâneos com olhar malicioso | Aprovado (relatado) |
 
 O êxito da compilação não confirma, por si só, o funcionamento da persistência NVS no Wokwi.
 
@@ -18,3 +18,7 @@ O êxito da compilação não confirma, por si só, o funcionamento da persistê
 Em 18/10/2026, após pressionar Stop e depois Start, a criadora observou retorno aos valores padrão (50 e 30). A escrita em execução havia funcionado. Próximo teste: reiniciar o ESP32 dentro da mesma sessão sem encerrar a simulação para diferenciar NVS não preservada entre sessões de falha na lógica de gravação.
 
 **Conclusão adicional:** o teste com comando serial `r` e `ESP.restart()` mostrou recuperação da NVS dentro da sessão. O comando serial foi incluído temporariamente no sketch do Wokwi pela criadora; ainda não integra o firmware principal versionado. Testar em hardware físico posteriormente.
+
+## Fechamento
+
+A bateria inicial de testes da V1.0 foi concluída conforme a execução e os relatos da criadora no Wokwi. A NVS recuperou os traços após `ESP.restart()` dentro da mesma execução; Stop/Start iniciou com valores padrão. Não há ainda comprovação em hardware físico nem testes automatizados.
