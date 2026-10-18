@@ -21,3 +21,5 @@ Modificação única: o episódio começa com `movimento > 1.5` e só termina co
 A criadora confirmou que o firmware H1 iniciou sem erros e que a mensagem `Agitacao: episodio iniciado` apareceu ao movimentar o MPU6050. Teste de episódio contínuo e encerramento ainda pendentes.
 
 **Teste de movimento contínuo — aprovado (relatado):** a criadora confirmou que manter a rotação alta por aproximadamente 10 segundos não gerou novos episódios nem atualizações repetidas de traços. Restam a confirmação da faixa intermediária, do encerramento abaixo de 1.0 e de um novo episódio.
+
+**Teste da faixa intermediária e encerramento — aprovado (relatado):** a criadora confirmou que a agitação se manteve ativa perto de 1,2 e a mensagem `Agitacao: episodio encerrado` só apareceu ao baixar a rotação para zero. Pendente: iniciar novo episódio depois do encerramento.
