@@ -5,7 +5,7 @@ Data: 18/10/2026
 | Teste | Resultado | Estado |
 |---|---|---|
 | Inicialização da simulação após migração para ESP32-S3 | A criadora relatou que não houve erros | Aprovado (relatado) |
-| OLED: olhos e expressões | Aguardando confirmação | Pendente |
+| OLED: exibição dos olhos | A criadora confirmou que os olhos apareceram normalmente | Aprovado (relatado) |
 | Botão, MPU6050 e HC-SR04 | Aguardando confirmação | Pendente |
 | Memória NVS e comentários espontâneos | Aguardando confirmação | Pendente |
 
