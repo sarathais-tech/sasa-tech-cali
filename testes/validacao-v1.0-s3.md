@@ -7,7 +7,7 @@ Data: 18/10/2026
 | Inicialização da simulação após migração para ESP32-S3 | A criadora relatou que não houve erros | Aprovado (relatado) |
 | OLED: exibição dos olhos | A criadora confirmou que os olhos apareceram normalmente | Aprovado (relatado) |
 | Botão de carinho: expressão, fala, relaxamento e traços | A criadora confirmou funcionamento | Aprovado (relatado) |
-| MPU6050: tontura e alterações de humor | Aguardando teste | Pendente |
+| MPU6050: tontura e alterações de humor | A criadora confirmou resposta à rotação, expressão e alteração de traços | Aprovado (relatado) |
 | HC-SR04: curiosidade e desconforto por proximidade | Aguardando teste | Pendente |
 | Memória NVS e comentários espontâneos | Aguardando confirmação | Pendente |
 
