@@ -27,3 +27,5 @@ A prioridade de carinho, acalmado, tontura e irritacao pode sobrepor temporariam
 **Teste de estabilidade entre 99 e 105 cm — aprovado (relatado):** a criadora confirmou que Cali permaneceu CURIOSO sem repetir eventos de entrada e saida na faixa intermediaria. Pendente teste de saida acima de 110 cm e zona pessoal 30/35 cm.
 
 **Teste de saída da zona curiosa — aprovado (relatado):** aos 115 cm a criadora confirmou `Proximidade: saiu da zona curiosa` e retorno ao humor FELIZ. Pendente validar a zona pessoal com limites 30/35 cm.
+
+**Teste de entrada na zona pessoal — aprovado (relatado):** a criadora confirmou a reação de DESCONFORTAVEL e a reclamação ao ajustar o HC-SR04 para 25 cm. Próximo teste: estabilidade na faixa 29–33 cm.
