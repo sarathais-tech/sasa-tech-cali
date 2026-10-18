@@ -19,3 +19,7 @@ Origem: H2. A lógica dos sensores, personalidade, NVS, histerese e comandos ser
 Não foram criadas novas mensagens seriais. O resultado principal é **visual**. Os logs de distância, personalidade e entrada/saída das zonas continuam como na H2.
 
 **Nota:** se o Cali não mostrar a cara emburrada após o texto sumir, envie uma captura do OLED e dos logs de distância. Montagem física ainda não testada.
+
+## Resultado parcial — 18/10/2026
+
+**Aprovado (relatado):** a criadora confirmou que, a 25 cm, a expressão emburrada permanece depois de a legenda desaparecer. Ainda pendem testes das demais expressões e regressões da H2.
