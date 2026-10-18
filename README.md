@@ -45,7 +45,7 @@ Os testes demonstrados foram feitos em simulação, **não em hardware físico**
 5. Cole o conteúdo de [firmware/cali_v0_6.ino](firmware/cali_v0_6.ino) em `sketch.ino`.
 6. Inicie a simulação. Altere a rotação no MPU-6050 e a distância no HC-SR04; clique no botão para oferecer carinho.
 
-O link exato da simulação salva será adicionado quando disponível.
+**[Abrir a simulação do Cali no Wokwi](https://wokwi.com/projects/478231749554255873)**. O conteúdo remoto ainda não foi comparado arquivo a arquivo com este repositório.
 
 ## Evolução
 | Versão | Marco |
