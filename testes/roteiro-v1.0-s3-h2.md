@@ -19,3 +19,7 @@ Esta etapa parte do firmware H1 aprovado, alterando somente a logica de zonas de
 9. Confirme os demais recursos da H1 (MPU, carinho e comentarios).
 
 A prioridade de carinho, acalmado, tontura e irritacao pode sobrepor temporariamente as expressoes de proximidade. Ainda nao testado em hardware fisico.
+
+## Resultado parcial — 18/10/2026
+
+**Teste inicial aprovado (relatado):** a criadora confirmou que o firmware H2 iniciou sem erros e que o Cali ficou CURIOSO ao ajustar o HC-SR04 para 95 cm. Oscilação na faixa 99–105 cm ainda pendente.
