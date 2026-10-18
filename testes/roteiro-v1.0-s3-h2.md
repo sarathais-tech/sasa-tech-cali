@@ -23,3 +23,5 @@ A prioridade de carinho, acalmado, tontura e irritacao pode sobrepor temporariam
 ## Resultado parcial — 18/10/2026
 
 **Teste inicial aprovado (relatado):** a criadora confirmou que o firmware H2 iniciou sem erros e que o Cali ficou CURIOSO ao ajustar o HC-SR04 para 95 cm. Oscilação na faixa 99–105 cm ainda pendente.
+
+**Teste de estabilidade entre 99 e 105 cm — aprovado (relatado):** a criadora confirmou que Cali permaneceu CURIOSO sem repetir eventos de entrada e saida na faixa intermediaria. Pendente teste de saida acima de 110 cm e zona pessoal 30/35 cm.
