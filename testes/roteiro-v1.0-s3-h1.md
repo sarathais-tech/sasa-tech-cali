@@ -15,3 +15,7 @@ Modificação única: o episódio começa com `movimento > 1.5` e só termina co
 8. Agite novamente acima de 1.5: espere outro episódio iniciado, com outra atualização de traços.
 
 **Não confundir:** `Tracos:` também aparece quando se aperta o botão de carinho; para testar a histerese, evite apertá-lo durante o teste. Ainda não foi feita compilação independente nem teste de hardware físico.
+
+## Resultado parcial — 18/10/2026
+
+A criadora confirmou que o firmware H1 iniciou sem erros e que a mensagem `Agitacao: episodio iniciado` apareceu ao movimentar o MPU6050. Teste de episódio contínuo e encerramento ainda pendentes.
