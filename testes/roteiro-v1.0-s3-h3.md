@@ -33,3 +33,5 @@ Não foram criadas novas mensagens seriais. O resultado principal é **visual**.
 **Evidência de saída da zona pessoal (print do Monitor Serial, 18/10/2026):** log exibiu `Distancia: 33.4 cm`, depois `Proximidade: saiu da zona pessoal`, `Cali diz: Quem esta ai?` e `Distancia: 35.3 cm`. Confirma que a transição para CURIOSO ocorreu quando a leitura ultrapassou 35 cm; a captura não demonstra isoladamente qual distância foi selecionada no controle do simulador. Expressão visual final ainda não confirmada explicitamente.
 
 **Transicao visual da zona pessoal para CURIOSO — aprovada (relatada):** a criadora confirmou que, ao sair da zona pessoal, a boca emburrada desapareceu e os olhos assumiram a expressao curiosa. Testes visuais de DESCONFORTAVEL concluidos. Ainda faltam verificacoes de IRRITADO, TONTO, CARINHO e ACALMADO em silencio.
+
+**Expressao IRRITADO persistente — aprovada (relatada):** a criadora confirmou que, com estresse alto, olhos bravos e boca seria permaneceram depois que a fala sumiu. Pendente verificar TONTO, CARINHO e ACALMADO em silencio.
