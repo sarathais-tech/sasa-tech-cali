@@ -35,3 +35,5 @@ Não foram criadas novas mensagens seriais. O resultado principal é **visual**.
 **Transicao visual da zona pessoal para CURIOSO — aprovada (relatada):** a criadora confirmou que, ao sair da zona pessoal, a boca emburrada desapareceu e os olhos assumiram a expressao curiosa. Testes visuais de DESCONFORTAVEL concluidos. Ainda faltam verificacoes de IRRITADO, TONTO, CARINHO e ACALMADO em silencio.
 
 **Expressao IRRITADO persistente — aprovada (relatada):** a criadora confirmou que, com estresse alto, olhos bravos e boca seria permaneceram depois que a fala sumiu. Pendente verificar TONTO, CARINHO e ACALMADO em silencio.
+
+**Expressao TONTO — aprovada (relatada):** a criadora confirmou o aparecimento dos olhos `@ @` e da boquinha redonda durante movimento do MPU6050. A persistencia da boca apos o fim da fala nao foi demonstrada, pois o estado de tontura pode expirar antes da legenda. Pendentes testes de CARINHO e ACALMADO em silencio.
