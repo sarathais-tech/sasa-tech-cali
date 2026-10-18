@@ -37,3 +37,9 @@ Não foram criadas novas mensagens seriais. O resultado principal é **visual**.
 **Expressao IRRITADO persistente — aprovada (relatada):** a criadora confirmou que, com estresse alto, olhos bravos e boca seria permaneceram depois que a fala sumiu. Pendente verificar TONTO, CARINHO e ACALMADO em silencio.
 
 **Expressao TONTO — aprovada (relatada):** a criadora confirmou o aparecimento dos olhos `@ @` e da boquinha redonda durante movimento do MPU6050. A persistencia da boca apos o fim da fala nao foi demonstrada, pois o estado de tontura pode expirar antes da legenda. Pendentes testes de CARINHO e ACALMADO em silencio.
+
+**CARINHO e ACALMADO — aprovados (relatados):** a criadora confirmou o sorriso no carinho e a expressão tranquila durante o alívio.
+
+## Fechamento da rodada H3
+
+Os testes visuais relatados de DESCONFORTAVEL persistente, transição para CURIOSO, IRRITADO persistente, TONTO visível, CARINHO e ACALMADO foram concluídos no Wokwi com ESP32-S3. A permanência da boca de TONTO em silêncio não foi comprovada porque a duração atual da tontura (1,8 s após movimento) é menor que a duração da fala (2,5 s). **Status: H3 validada para os comportamentos observados, com melhoria de tempo de tontura pendente.** Sem validação em hardware físico.
