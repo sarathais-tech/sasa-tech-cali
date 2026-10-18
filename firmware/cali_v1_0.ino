@@ -11,6 +11,7 @@
 Adafruit_SSD1306 tela(128, 64, &Wire, -1);
 Adafruit_MPU6050 mpu;
 const int BOTAO = 18, TRIG = 5, ECHO = 19;
+enum Humor { FELIZ, CURIOSO, TONTO, IRRITADO, CARINHO, ACALMADO, DESCONFORTAVEL };
 Preferences memoria;
 int afeto = 50;
 int desconfianca = 30;
@@ -20,7 +21,6 @@ void salvarTracos() {
   memoria.putUChar("suspeita", (uint8_t)desconfianca);
 }
 
-enum Humor { FELIZ, CURIOSO, TONTO, IRRITADO, CARINHO, ACALMADO, DESCONFORTAVEL };
 float estresse = 0, movimento = 0, distancia = 400;
 unsigned long ultimoCiclo = 0, ultimaTela = 0, ultimoSensor = 0, ultimoLog = 0;
 unsigned long tontoAte = 0, carinhoAte = 0, acalmadoAte = 0;
