@@ -23,3 +23,5 @@ A criadora confirmou que o firmware H1 iniciou sem erros e que a mensagem `Agita
 **Teste de movimento contínuo — aprovado (relatado):** a criadora confirmou que manter a rotação alta por aproximadamente 10 segundos não gerou novos episódios nem atualizações repetidas de traços. Restam a confirmação da faixa intermediária, do encerramento abaixo de 1.0 e de um novo episódio.
 
 **Teste da faixa intermediária e encerramento — aprovado (relatado):** a criadora confirmou que a agitação se manteve ativa perto de 1,2 e a mensagem `Agitacao: episodio encerrado` só apareceu ao baixar a rotação para zero. Pendente: iniciar novo episódio depois do encerramento.
+
+**H1 aprovada (relatada):** apos o encerramento a criadora confirmou outro episodio ao elevar a rotacao novamente. Todos os testes H1 foram concluidos em simulacao; hardware fisico ainda nao testado.
