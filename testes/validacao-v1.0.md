@@ -8,7 +8,7 @@ Data: 18/10/2026. Resultados informados pela criadora.
 | Alteração de afeto e desconfiança com botão | A criadora confirmou aumento do afeto e redução da desconfiança no Monitor Serial | Aprovado (relatado) |
 | Persistência após Stop e Start no Wokwi | Valores voltaram a afeto=50 e desconfianca=30 | Não preservou dados entre sessões simuladas |
 | Persistência após `ESP.restart()` na mesma execução | A criadora confirmou que os valores anteriores permaneceram | Aprovado (relatado) |
-| Alteração dos traços com movimento | Aguardando teste | Pendente |
+| Alteração dos traços com movimento | A criadora confirmou queda de 1 ponto no afeto e aumento de 4 pontos na desconfiança após episódio de agitação | Aprovado (relatado) |
 | Regressão das expressões da V0.9 | Aguardando teste | Pendente |
 
 O êxito da compilação não confirma, por si só, o funcionamento da persistência NVS no Wokwi.
