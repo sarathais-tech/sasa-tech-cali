@@ -55,7 +55,7 @@ Os testes demonstrados foram feitos em simulação, **não em hardware físico**
 | V0.3 | Movimento + estresse |
 | V0.4–V0.5 | Botão de carinho + alívio |
 | V0.6 | Proximidade (testes parciais no Wokwi) |
-| V0.7 | Diálogos e personalidade contextual (planejado) |
+| V0.7 | Diálogos contextuais predefinidos (código publicado; aguardando teste) |
 
 ## Próximos passos
 - Melhorar filtragem do sensor de distância e evitar oscilações perto dos limites.
@@ -64,6 +64,6 @@ Os testes demonstrados foram feitos em simulação, **não em hardware físico**
 - Adicionar áudio local, caixa portátil e bateria com circuito apropriado.
 - Futuramente, criar **Sasa Tech Connect** para cadastro voluntário, apelidos, preferências e memória social, respeitando privacidade e consentimento.
 
-Veja [documentacao/visao-geral.md](documentacao/visao-geral.md) e [testes/roteiro-v0.6.md](testes/roteiro-v0.6.md).
+Veja [documentacao/visao-geral.md](documentacao/visao-geral.md), [testes/roteiro-v0.6.md](testes/roteiro-v0.6.md) e [instruções para V0.7](documentacao/versao-v0.7.md).
 
 **Projeto em desenvolvimento.**
