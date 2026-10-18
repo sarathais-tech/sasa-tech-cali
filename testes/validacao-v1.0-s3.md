@@ -9,6 +9,7 @@ Data: 18/10/2026
 | Botão de carinho: expressão, fala, relaxamento e traços | A criadora confirmou funcionamento | Aprovado (relatado) |
 | MPU6050: tontura e alterações de humor | A criadora confirmou resposta à rotação, expressão e alteração de traços | Aprovado (relatado) |
 | HC-SR04: curiosidade a 60 cm, desconforto a 15 cm e tranquilidade a 150 cm | A criadora confirmou os três comportamentos | Aprovado (relatado) |
-| Memória NVS e comentários espontâneos | Aguardando confirmação | Pendente |
+| Comentários espontâneos | A criadora confirmou que Cali fala sozinho normalmente | Aprovado (relatado) |
+| Memória NVS após reinicialização com ESP.restart() | Aguardando teste na placa S3 | Pendente |
 
 **Observação:** ausência de erro ao iniciar não comprova ainda todos os periféricos.
