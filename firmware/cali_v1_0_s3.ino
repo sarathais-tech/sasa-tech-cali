@@ -247,6 +247,16 @@ void setup() {
   proximoComentario = ultimoCiclo + 3500;
 }
 void loop() {
+  // Diagnostico: enviar 'r' pelo Monitor Serial reinicia sem Stop/Start.
+  if (Serial.available() > 0) {
+    char comando = Serial.read();
+    if (comando == 'r' || comando == 'R') {
+      Serial.println("Reiniciando Cali...");
+      Serial.flush();
+      delay(300);
+      ESP.restart();
+    }
+  }
   unsigned long agora = millis();
   float dt = (agora - ultimoCiclo) / 1000.0f;
   ultimoCiclo = agora;
