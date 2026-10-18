@@ -27,3 +27,5 @@ Não foram criadas novas mensagens seriais. O resultado principal é **visual**.
 **Observacao de limite (relatada):** ao ajustar a distancia para 35 cm, a criadora viu Cali ficar CURIOSO. Como a saida da zona pessoal usa `distancia > 35`, sera conferido o valor efetivo exibido no Monitor Serial, com testes em 33, 35 e 36 cm, antes de alterar o firmware. A estabilidade no limite ainda nao esta aprovada.
 
 **Causa identificada:** quando a interface Wokwi estava ajustada para 35 cm, o Monitor Serial mostrou `Distancia: 35.3`. Como a regra de saída é `distancia > 35`, o retorno ao estado CURIOSO corresponde ao valor realmente medido. Nenhuma alteração de firmware necessária por essa observação. Ainda verificar a permanência em 33 cm.
+
+**Teste em 33 cm — aprovado (relatado):** depois de entrar na zona pessoal a 25 cm, a criadora confirmou que a boca emburrada continuou visível ao afastar para 33 cm. A leitura de 35,3 cm já explica a saída observada anteriormente no limite configurado de 35 cm. Pendente confirmação de saída da zona pessoal em 40 cm e regressões das demais expressões.
